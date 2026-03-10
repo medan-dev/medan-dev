@@ -38,7 +38,7 @@ const skillCategories = [
 
 export default function Skills() {
   return (
-    <section id="skills" className="py-32 px-6 bg-black/30">
+    <section id="skills" className="py-32 px-6" style={{ background: 'rgba(8, 8, 37, 0.4)' }}>
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-20">
           <h2 className="text-4xl md:text-6xl font-black mb-6">Technical <span className="text-gradient">Stack</span></h2>

@@ -1,7 +1,7 @@
 'use client';
 
 import Navbar from '@/components/Navbar';
-import Scene from '@/components/canvas/Scene';
+import AnimatedBackground from '@/components/canvas/AnimatedBackground';
 import Hero from '@/components/sections/Hero';
 import Bio from '@/components/sections/Bio';
 import Projects from '@/components/sections/Projects';
@@ -25,8 +25,8 @@ export default function Home() {
         style={{ scaleX }}
       />
 
-      {/* 3D Background */}
-      <Scene />
+      {/* Animated Background */}
+      <AnimatedBackground />
 
       {/* Navigation */}
       <Navbar />
@@ -40,8 +40,8 @@ export default function Home() {
         <Contact />
 
         {/* Footer */}
-        <footer className="py-12 px-6 border-t border-glass-border glass text-center">
-          <p className="text-gray-500 text-sm">
+        <footer className="py-16 px-6 border-t border-glass-border glass text-center">
+          <p className="text-gray-400 text-lg md:text-xl font-bold">
             © {new Date().getFullYear()} Medan Dev. Built with Next.js, Three.js & Passion.
           </p>
         </footer>

@@ -29,7 +29,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
-            className="text-lg md:text-2xl text-gray-100 max-w-xl mb-12 leading-relaxed drop-shadow-2xl px-10 py-6 glass rounded-[2rem] border-white/20 bg-black/60 backdrop-blur-2xl relative z-30"
+            className="text-lg md:text-2xl text-gray-100 max-w-xl mb-12 leading-relaxed drop-shadow-2xl px-10 py-6 glass rounded-[2rem] border-white/20 backdrop-blur-2xl relative z-30"
           >
             Crafting the future of software with artificial intelligence. Scalable solutions, intelligent interfaces, and cinematic digital experiences.
           </motion.p>

@@ -1,12 +1,14 @@
 @import "tailwindcss";
 
 :root {
-  --background: #02040a;
+  --background: #0a0a2e;
   --foreground: #ffffff;
   --accent: #ff6a00;
+  --accent-secondary: #ff4500;
+  --accent-muted: #8b2c1f;
   --accent-glow: rgba(255, 106, 0, 0.4);
-  --glass: rgba(255, 255, 255, 0.05);
-  --glass-border: rgba(255, 255, 255, 0.12);
+  --glass: rgba(10, 10, 46, 0.5);
+  --glass-border: rgba(255, 255, 255, 0.1);
 }
 
 @theme inline {
@@ -34,11 +36,11 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: #050505;
+  background: #080825;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #1a1a1a;
+  background: #1a1a4e;
   border-radius: 10px;
 }
 
@@ -48,21 +50,21 @@ body {
 
 /* Glassmorphism Utilities */
 .glass {
-  background: rgba(255, 255, 255, 0.08); /* Increased base opacity */
-  backdrop-filter: blur(16px); /* Increased blur */
+  background: rgba(10, 10, 46, 0.55);
+  backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
-  border: 1px solid rgba(255, 255, 255, 0.2); /* Brighter border */
+  border: 1px solid rgba(255, 255, 255, 0.12);
 }
 
 .glass-card {
-  background: rgba(255, 255, 255, 0.05); /* Increased base opacity */
-  backdrop-filter: blur(24px); /* Increased blur */
-  border: 1px solid rgba(255, 255, 255, 0.15); /* Brighter border */
+  background: rgba(10, 10, 46, 0.45);
+  backdrop-filter: blur(24px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .glass-card:hover {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 106, 0, 0.08);
   border-color: var(--accent);
   box-shadow: 0 0 30px var(--accent-glow);
 }
