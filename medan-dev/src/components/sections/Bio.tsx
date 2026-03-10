@@ -68,7 +68,7 @@ export default function Bio() {
               className="space-y-4 md:space-y-6 text-lg md:text-xl text-gray-300 leading-relaxed"
             >
               <p>
-                As a Software Development student specializing in AI, I thrive at the intersection of clean code and intelligent algorithms. 
+                As a Software Development professional specializing in AI, I thrive at the intersection of clean code and intelligent algorithms. 
                 My focus is on creating responsive, user-centric applications from mobile concepts to full-stack web platforms.
               </p>
               <p>

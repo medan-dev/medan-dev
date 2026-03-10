@@ -14,13 +14,13 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Medan Dev | Software Developer & AI Enthusiast",
-  description: "Professional 3D Portfolio of Medan Dev - Software Development student specializing in full-stack web development and AI integration.",
+  description: "Professional Portfolio of Medan Dev - Software Development With Artificial Intelligence Professional. Specializing in Full-stack, Web and App development.",
   icons: {
     icon: "/favicon.ico",
   },
   openGraph: {
     title: "Medan Dev | Software Developer & AI Enthusiast",
-    description: "Professional 3D Portfolio of Medan Dev - Software Development student specializing in full-stack web development and AI integration.",
+    description: "Professional Portfolio of Medan Dev - Software Development With Artificial Intelligence Professional. Specializing in Full-stack, Web and App development.",
     images: [
       {
         url: "/images/preview.jpg",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Medan Dev | Software Developer & AI Enthusiast",
-    description: "Professional 3D Portfolio of Medan Dev - Software Development student specializing in full-stack web development and AI integration.",
+    description: "Professional Portfolio of Medan Dev - Software Development With Artificial Intelligence Professional. Specializing in Full-stack, Web and App development.",
     images: ["/images/preview.jpg"],
   },
 };
