@@ -59,35 +59,35 @@ export default function Hero() {
           transition={{ duration: 1.2, ease: "easeOut" }}
           className="relative order-1 lg:order-2 flex justify-center lg:justify-end"
         >
-          <div className="relative h-[380px] w-[340px] md:h-[700px] md:w-[600px]">
+          <div className="relative h-[380px] w-[340px] md:h-[700px] md:w-[600px] group">
              {/* Glow Behind Image */}
-             <div className="absolute inset-0 bg-accent/40 blur-[100px] md:blur-[180px] rounded-full animate-pulse" />
+             <div className="absolute inset-0 bg-accent/40 blur-[100px] md:blur-[180px] rounded-full animate-pulse transition-opacity duration-1000 group-hover:opacity-100" />
              
              {/* Main Image Container with Vertical Hexagon Clip and Glow Border */}
              <div className="relative h-full w-full">
                <div 
-                 className="absolute inset-0 bg-accent/20 group-hover:bg-accent/40 transition-colors duration-500"
-                 style={{ clipPath: 'polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)', padding: '2px' }}
+                 className="absolute inset-0 bg-accent/30 group-hover:bg-accent/60 transition-all duration-500 shadow-[0_0_40px_rgba(255,106,0,0.3)]"
+                 style={{ clipPath: 'polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)' }}
                >
                  <div 
-                   className="relative h-full w-full overflow-hidden bg-black/40"
+                   className="absolute inset-[2px] overflow-hidden bg-black/40"
                    style={{ clipPath: 'polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)' }}
                  >
                    <Image
                      src="/images/medan.jpg"
                      alt="Medan Dev"
                      fill
-                     className="object-cover group-hover:scale-110 transition-transform duration-[3s]"
+                     className="object-cover transition-transform duration-[3s] group-hover:scale-110"
                      priority
                    />
                    
                    {/* Grayscale overlay that fades on hover */}
-                   <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-transparent to-transparent opacity-70 group-hover:opacity-30 transition-opacity" />
+                   <div className="absolute inset-0 bg-gradient-to-t from-black/95 via-black/20 to-transparent opacity-80 group-hover:opacity-40 transition-opacity duration-700" />
                  </div>
                </div>
                
                {/* Overlay Info Card (Centered below hexagon) */}
-               <div className="absolute -bottom-10 left-1/2 -translate-x-1/2 p-6 glass rounded-2xl border-white/20 opacity-0 group-hover:opacity-100 transition-all duration-700 w-[240px] text-center z-40 backdrop-blur-3xl">
+               <div className="absolute -bottom-10 left-1/2 -translate-x-1/2 p-6 glass rounded-2xl border-white/20 opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0 transition-all duration-700 w-[240px] text-center z-40 backdrop-blur-3xl">
                   <p className="text-[10px] font-bold text-accent uppercase tracking-widest mb-1">Expertise</p>
                   <p className="font-bold text-lg">Software & AI Architect</p>
                </div>
