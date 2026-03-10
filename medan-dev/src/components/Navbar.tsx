@@ -47,7 +47,7 @@ export default function Navbar() {
             animate={{ opacity: 1, x: 0 }}
             className="text-xl md:text-2xl font-black tracking-tighter"
           >
-            MEDAN<span className="text-accent">.DEV</span>
+            MEDAN<span className="text-accent">-DEV</span>
           </motion.div>
 
           {/* Desktop Links */}
