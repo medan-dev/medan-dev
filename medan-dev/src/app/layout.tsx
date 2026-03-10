@@ -23,9 +23,9 @@ export const metadata: Metadata = {
     description: "Professional 3D Portfolio of Medan Dev - Software Development student specializing in full-stack web development and AI integration.",
     images: [
       {
-        url: "/images/medan.png",
+        url: "/images/preview.jpg",
         width: 800,
-        height: 800,
+        height: 1000,
         alt: "Medan Dev Profile",
       },
     ],
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Medan Dev | Software Developer & AI Enthusiast",
     description: "Professional 3D Portfolio of Medan Dev - Software Development student specializing in full-stack web development and AI integration.",
-    images: ["/images/medan.png"],
+    images: ["/images/preview.jpg"],
   },
 };
 
