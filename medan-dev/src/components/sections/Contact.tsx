@@ -23,8 +23,8 @@ export default function Contact() {
 
             <div className="mt-16 flex gap-6">
                <SocialIcon icon={<Linkedin />} href="https://linkedin.com/in/Mctech-hub-Systems" />
-               <SocialIcon icon={<Github />} href="#" />
-               <SocialIcon icon={<Instagram />} href="#" />
+               <SocialIcon icon={<Github />} href="https://github.com/medan-dev" />
+               <SocialIcon icon={<Instagram />} href="https://instagram.com/medan_dev" />
             </div>
           </div>
 
