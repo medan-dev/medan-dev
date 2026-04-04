@@ -82,7 +82,7 @@ const projects = [
     icon: <Layout className="text-accent" />,
     image: "/projects/mt_zion_portal.png",
     status: "Live",
-    link: "https://mtzion.mctechhub.co.ug",
+    link: "http://mt-zion-ss-mubende-admissions.online",
     github: "https://github.com/medan-dev/mtzion-admissions"
   }
 ];
