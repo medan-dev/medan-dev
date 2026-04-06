@@ -12,7 +12,7 @@ const projects = [
     icon: <Layout className="text-accent" />,
     image: "/projects/shemous.png",
     status: "Live",
-    link: "https://shemous.co.ug",
+    link: "https://shemous-beverages-exports.vercel.app/",
     github: "https://github.com/medan-dev/Shemousbeverages-exports"
   },
   {
